@@ -1,0 +1,56 @@
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-style{
+    width: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.text-form{
+    width: -webkit-fill-available;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #725a7e;
+    margin-right: 5px;
+}
+
+.btn-form{
+    background-color: #c8b8db;
+    border: 1px solid #c8b8db;
+    padding: 10px;
+    width: 20%;
+    color: #fff;
+    font-weight: 900;
+}
+
+.delete-btn{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/Cross_red_circle.svg);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px;
+    background-color: #fff;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-bottom: 20px;
+}
+
+.flex-list{
+    width: 60%;
+}
